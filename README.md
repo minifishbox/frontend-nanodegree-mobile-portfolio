@@ -53,3 +53,12 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 
 * <a href="http://getbootstrap.com/css/">Bootstrap's CSS Classes</a>
 * <a href="http://getbootstrap.com/components/">Bootstrap's Components</a>
+
+### Optimization Overview
+* Inlined CSS ,add media for css
+* Added async to javascript file
+* Minifed HTML
+* Losslessly compressed pizzeria image.
+* Add width and height attributes to image
+* Moved DOM queries out of for loops as it is not necessary for them to be iterated over
+* In DOMContentLoaded, the amount of pizzas created for rendering is now calculated based upon the size of the screen, rather than using the provided fixed value of 200
